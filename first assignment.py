@@ -1,10 +1,10 @@
 print("My name is P.k, short for Paul Kelly. I'm from Delta state, NIgeria reside in NIgeria and i'm a tech enthusiast")
 
 # assignment 2 & 4
-# name = input("please enter your name ")
-# nationality = input("please enter your nationality ")
-# profession = input("please enter your profesion ")
-# print("hello " + name + " since you're " + nationality + " you're welcome" + " and all " + profession + " are welcome too ")
+name = input("please enter your name ")
+nationality = input("please enter your nationality ")
+profession = input("please enter your profesion ")
+print("hello " + name + " all " + nationality + " are welcome to learn python with jude" + " regarless of the fact that you're" + profession + "you are can learn and master python ")
 
 # assignment (a simple calculator that performs only additional operations) 
 first_number = float(input("enter first number"))
