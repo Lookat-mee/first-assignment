@@ -1,3 +1,6 @@
+#in these tasks, i was able to use my knowledge of inbuilt functions such as(input(), min(), max(), float())
+#  then methods such as  (.max .min .sort .append .remove) and data structures(list and set)
+
 
 #1 and 3 cause it takes inputs and also adds element to the end of the list 
 user_inputs = []
