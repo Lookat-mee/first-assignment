@@ -1,8 +1,12 @@
+from dotenv import load_dotenv, dotenv_values
+import os
 import requests
 
+load_dotenv()
 city_name = "lagos"
-API_key= 'f9bda9f30ab08d4703164c774491d336'
-url =  f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_key}&units=metric"
+# print(os.getenv('API_key'))
+# API_key= 'f9bda9f30ab08d4703164c774491d336'
+url =  f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={os.getenv('API_key')}&units=metric"
 
 response = requests.get(url)
 if response.status_code == 200:
